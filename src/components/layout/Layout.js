@@ -36,9 +36,9 @@ const Social = {
 
 function Layout() {
     return (
-        <Container fluid className={classes.background}>
+        <Container fluid className={classes.backgroundImg}>
             <Row>
-                <Col className={classes.padding} sm={4}>
+                <Col className={classes.padding} sm={2}>
                     <ImageCard
                         Title={Contact.Title}
                         Description={Contact.Description}
@@ -50,21 +50,18 @@ function Layout() {
                         Title={About.Title}
                         Description={About.Description}
                     />
-                </Col>
-            </Row>
-            <Row>
-                <Col className={classes.padding} sm={4}>
-                <InfoCard
+                    <InfoCard
+                        Title={Career.Title}
+                        Description={Career.Description}
+                    />
+                    <InfoCard
                         Title={Social.Title}
                         Description={Social.Github.Title}
                     />
                 </Col>
-                <Col className={classes.padding} sm={4}>
-                    <InfoCard
-                            Title={Career.Title}
-                            Description={Career.Description}
-                    />
-                </Col>
+            </Row>
+            <Row>
+               
             </Row>
         </Container>
     )
