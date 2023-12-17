@@ -1,9 +1,9 @@
 import './App.css';
-import ImageCard from './components/ui/ImageCard'
+import Layout from './components/layout/Layout'
 
 function App() {
   return (
-    <ImageCard></ImageCard>
+    <Layout></Layout>
   )
 }
 
