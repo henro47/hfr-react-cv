@@ -38,7 +38,7 @@ function Layout() {
     return (
         <Container fluid>
             <Row className={classes.rows}>
-                <Col className={classes.columns} sm={2}>
+                <Col className={classes.columns} sm={3}>
                     <ImageCard
                         Title={Contact.Title}
                         Description={Contact.Description}
@@ -60,11 +60,12 @@ function Layout() {
                     />
                 </Col>
                 <Col className={classes.columns}>
-                    <Timeline></Timeline>
+                    <Timeline
+                        Timeline={data.Timeline}
+                    ></Timeline>
                 </Col>
             </Row>
             <Row className={classes.rows}>
-               
             </Row>
         </Container>
     )

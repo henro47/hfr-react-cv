@@ -1,19 +1,24 @@
 import classes from './Timeline.module.css';
 
-
-function Timeline() {
+function Timeline(props) {
+    console.log(props)
     return (
         <div className={classes.container}>
             <div className={classes.wrapper}>
-                <h1> A day in my 'sleepy' life 😅</h1>
-                <ul class="sessions">
-                <li>
-                    <div class="time">09:00 AM</div>
-                    <p>How is it already 9:00? Just how??? 🤯🤯</p>
-                </li>
+                <h4>{props.Timeline.Title}</h4>
+                <ul>
+                    {props.Timeline.Dates.map((item, i) => {
+                    return (
+                        <li key={i}>
+                            <div className={classes.time}>{item.Date}</div>
+                            <p>{item.Title}</p>
+                            <p>{item.Description}</p>
+                        </li>
+                      );
+                    })}
                 </ul>
             </div>
-        </div> 
+        </div>
     );
 }
 
