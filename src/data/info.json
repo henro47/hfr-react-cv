@@ -3,7 +3,6 @@
         "Name": "Hendrik Fick Renaldo Potgieter",
         "Position": "Graduate Golang Software Developer at Nile.ag",
         "Location": "Gauteng, ZA",
-        "ImageUrl" :  "../../src/media/profile.jpg",
         "ImagePos" : "Top"
     },
     "About": {
@@ -13,5 +12,16 @@
     "Career": {
         "Title" : "Career",
         "Description" : "I am looking for an opportunity to grow and learn in my field of study. I understand that there is still much to learn, and I am willing and eager to learn new skills. I like to solve complex problems and I try to solve them in a creative, efficient way. When a problem grips me, I push myself to find a solution and I will not be satisfied until it is resolved. I am a hardworking, focused and disciplined individual with a big amount of willpower. I have the correct amount of computer, communication and teamwork skills to be appointed to this position."
+    },
+    "Social" :{
+        "Title" : "Social",
+        "Github" : {
+            "Title": "Github",
+            "URL" : "TODO"
+        },
+        "LinkedIn" : {
+            "Title": "LinkedIn",
+            "URL" : "TODO"
+        }
     }
 }

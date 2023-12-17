@@ -6,10 +6,13 @@ import InfoCard from '../ui/InfoCard';
 import data from '../../data/info.json'
 import classes from './Layous.module.css';
 
+import profileImg from '../../media/profile.jpg';
+import backgroundImg from '../../media/background.jpg'
+
 const Contact = {
     Title: data.Contact.Name,
     Description: data.Contact.Position,
-    ImgUrl: data.Contact.ImageUrl,
+    ImgUrl: profileImg,
     ImagePos: data.Contact.ImagePos,
 }
 
@@ -23,10 +26,17 @@ const Career = {
     Description: data.Career.Description,
 }
 
+const Social = {
+    Title: data.Social.Title,
+    Github: {
+        Title: data.Social.Github.Title,
+        URL: data.Social.Github.URL
+    }
+}
+
 function Layout() {
-    
     return (
-        <Container fluid>
+        <Container fluid className={classes.background}>
             <Row>
                 <Col className={classes.padding} sm={4}>
                     <ImageCard
@@ -43,7 +53,12 @@ function Layout() {
                 </Col>
             </Row>
             <Row>
-                <Col className={classes.padding} sm={4}/>
+                <Col className={classes.padding} sm={4}>
+                <InfoCard
+                        Title={Social.Title}
+                        Description={Social.Github.Title}
+                    />
+                </Col>
                 <Col className={classes.padding} sm={4}>
                     <InfoCard
                             Title={Career.Title}

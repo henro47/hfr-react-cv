@@ -2,3 +2,7 @@
     padding: 0.2rem;
     margin-left: 1.5rem;
 }
+
+.background {
+    background-image: url("../../media/background.jpg");
+ }
