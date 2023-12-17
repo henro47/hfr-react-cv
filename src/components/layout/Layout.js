@@ -28,14 +28,14 @@ function Layout() {
     return (
         <Container fluid>
             <Row>
-                <Col className={classes.padding} xs={2}>
+                <Col className={classes.padding} sm={4}>
                     <ImageCard
                         Title={Contact.Title}
                         Description={Contact.Description}
                         ImgUrl={Contact.ImgUrl}
                         ImgPos={Contact.ImgPos}/>
                 </Col>
-                <Col className={classes.padding} xs={4}>
+                <Col className={classes.padding} sm={4}>
                     <InfoCard
                         Title={About.Title}
                         Description={About.Description}
@@ -43,8 +43,8 @@ function Layout() {
                 </Col>
             </Row>
             <Row>
-                <Col className={classes.padding} xs={2}/>
-                <Col className={classes.padding} xs={4}>
+                <Col className={classes.padding} sm={4}/>
+                <Col className={classes.padding} sm={4}>
                     <InfoCard
                             Title={Career.Title}
                             Description={Career.Description}
