@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import classes from './ImageCard.module.css'
 
 function ImageCard(props) {
@@ -10,6 +11,7 @@ function ImageCard(props) {
           <Card.Text>
             {props.Description}
           </Card.Text>
+          <Button variant="primary">Contact Me</Button>
       </Card.Body>
     </Card>
   );
