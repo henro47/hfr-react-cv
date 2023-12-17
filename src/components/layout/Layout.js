@@ -5,6 +5,7 @@ import ImageCard from '../ui/ImageCard';
 import InfoCard from '../ui/InfoCard';
 import data from '../../data/info.json'
 import classes from './Layout.module.css';
+import Timeline from '../ui/Timeline';
 
 import profileImg from '../../media/profile.jpg';
 
@@ -57,6 +58,9 @@ function Layout() {
                         Title={Social.Title}
                         Description={Social.Github.Title}
                     />
+                </Col>
+                <Col className={classes.columns}>
+                    <Timeline></Timeline>
                 </Col>
             </Row>
             <Row className={classes.rows}>
