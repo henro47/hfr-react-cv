@@ -4,7 +4,7 @@ import classes from './ImageCard.module.css'
 function ImageCard(props) {
   return (
     <Card className={classes.card} > 
-        <Card.Img variant={props.imgPos} src={props.imgUrl} />
+        <Card.Img variant={props.ImgPos} src={props.ImgUrl} />
         <Card.Body>
           <Card.Title>{props.Title}</Card.Title>
           <Card.Text>
