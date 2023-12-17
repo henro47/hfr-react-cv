@@ -4,10 +4,9 @@ import Col from 'react-bootstrap/Col';
 import ImageCard from '../ui/ImageCard';
 import InfoCard from '../ui/InfoCard';
 import data from '../../data/info.json'
-import classes from './Layous.module.css';
+import classes from './Layout.module.css';
 
 import profileImg from '../../media/profile.jpg';
-import backgroundImg from '../../media/background.jpg'
 
 const Contact = {
     Title: data.Contact.Name,
@@ -36,16 +35,16 @@ const Social = {
 
 function Layout() {
     return (
-        <Container fluid className={classes.backgroundImg}>
-            <Row>
-                <Col className={classes.padding} sm={2}>
+        <Container fluid>
+            <Row className={classes.rows}>
+                <Col className={classes.columns} sm={2}>
                     <ImageCard
                         Title={Contact.Title}
                         Description={Contact.Description}
                         ImgUrl={Contact.ImgUrl}
                         ImgPos={Contact.ImgPos}/>
                 </Col>
-                <Col className={classes.padding} sm={4}>
+                <Col className={classes.columns} sm={4}>
                     <InfoCard
                         Title={About.Title}
                         Description={About.Description}
@@ -60,7 +59,7 @@ function Layout() {
                     />
                 </Col>
             </Row>
-            <Row>
+            <Row className={classes.rows}>
                
             </Row>
         </Container>
