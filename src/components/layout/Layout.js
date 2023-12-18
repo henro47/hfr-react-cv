@@ -6,8 +6,11 @@ import InfoCard from '../ui/InfoCard';
 import data from '../../data/info.json'
 import classes from './Layout.module.css';
 import Timeline from '../ui/Timeline';
+import AccordionCard from '../ui/AccordionCard';
 
 import profileImg from '../../media/profile.jpg';
+import projectImg from '../../media/nwu_logo.png';
+import projectFile from '../../media/honnours_project.pdf';
 
 const Contact = {
     Title: data.Contact.Name,
@@ -42,6 +45,16 @@ const Social = {
     ]
 }
 
+const Project = {
+    Title: data.Projects.Honnours.Title,
+    Subtitle: data.Projects.Honnours.Subtitle,
+    Description: data.Projects.Honnours.Description,
+    Keywords: data.Projects.Honnours.Keywords,
+    ImgUrl: projectImg,
+    BtnTitle: "View full research report",
+    BtnUrl: projectFile
+}
+
 function Layout() {
     return (
         <Container fluid>
@@ -69,14 +82,20 @@ function Layout() {
                         Description=""
                         Buttons={Social.Buttons}
                     />
+                    <AccordionCard
+                        Title={Project.Title}
+                        Description={Project.Description}
+                        Keywords={Project.Keywords}
+                        ImgUrl={Project.ImgUrl}
+                        BtnTitle={Project.BtnTitle}
+                        BtnUrl={Project.BtnUrl}
+                    />
                 </Col>
                 <Col className={classes.columns}>
                     <Timeline
                         Timeline={data.Timeline}
                     ></Timeline>
                 </Col>
-            </Row>
-            <Row className={classes.rows}>
             </Row>
         </Container>
     )

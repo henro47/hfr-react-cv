@@ -13,7 +13,7 @@ function InfoCard(props) {
               <div className="d-grid gap-2">
                 {props.Buttons.map((item, i) => {
                   return (
-                    <Button key={i} size="lg"
+                    <Button key={i} size="sm"
                       href={item.Href}
                       target="blank"
                       variant={item.BtnVariant}

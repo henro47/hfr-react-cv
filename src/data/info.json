@@ -11,7 +11,7 @@
     },
     "Career": {
         "Title" : "Career",
-        "Description" : "I am looking for an opportunity to grow and learn in my field of study. I understand that there is still much to learn, and I am willing and eager to learn new skills. I like to solve complex problems and I try to solve them in a creative, efficient way. When a problem grips me, I push myself to find a solution and I will not be satisfied until it is resolved. I am a hardworking, focused and disciplined individual with a big amount of willpower. I have the correct amount of computer, communication and teamwork skills to be appointed to this position."
+        "Description" : "I am looking for an opportunity to grow and learn in my field of study. I understand that there is still much to learn, and I am willing and eager to learn new skills. I like to solve complex problems and I try to solve them in a creative, efficient way. When a problem grips me, I push myself to find a solution and I will not be satisfied until it is resolved. I am a hardworking, focused and disciplined individual with a big amount of willpower. I have the correct amount of knowledge, communication and teamwork skills to be appointed to this position."
     },
     "Social" :{
         "Title" : "Social",
@@ -43,20 +43,28 @@
                 "Description" : "Graduated from the North-West University (NWU), with distinction"
             },
             {
-                "Date":"2022",
+                "Date":"2022-2023",
                 "Title": "Solution Developer at Linxas",
                 "Description" : "Started a full-time position as a solution developer at Linxas where I have gained experience with a variety of different programming languages and frameworks. These programming languages and frameworks include Java, JavaScript, TypeScript, Ionic Angular, Angular, GuiXT, and C#. A highlight of my position to date is a Fullstack Web Application written in Ionic Angular which one of our clients use to pull global reports for their business. This solution consists of an Ionic Angular front-end web application and an accompanying Node.js Express REST API that pulls information from a MySQL database that is hosted on a cloud server"
             },
             {
-                "Date": "2022",
+                "Date": "2022-2023",
                 "Title": "Subcontracted Software Developer at Pick n Pay",
                 "Description": "Started a position at Pick n Pay as a JavaScript developer as well as a Neptune-Software developer. I play a critical role in developing AJAX calls that pull information directly from SAP functions. I also develop native JavaScript functions that interface with various SAP functions and native libraries."
             },
             {
-                "Date":"2023",
+                "Date":"2023-Present",
                 "Title": "Graduate software developer at Nile.ag",
                 "Description": "Started a full time position as a backend Golang developer. In this role I play an important role setting up and maintaining microservices that communicate via GRPC. writing graphQL schema queries and mutations and retriving information from our hosted database in GCP"
             }
         ]
+    },
+    "Projects" : {
+        "Honnours" : {
+            "Title" : "Automated terrain classification using vibrations and a feed-forward neural network.",
+            "Subtitle" : "Abstract",
+            "Description" : "Automated terrain classification can be described as the ability to identify different terrains based on feedback from the environment on a specific object using a technique such as deep learning. Automated terrain classification using vibration readings has a number of practical applications for society. One of these applications is autonomous self-driving vehicles. With the growing popularity of these vehicles, the ability to classify the terrain the vehicle is currently traversing hold several key benefits for these vehicles. The primary benefit being the fact that these vehicles could traverse various terrains more effectively by adjusting torque settings to accommodate each terrain. Automated terrain classification can be achieved in a number of ways. This study intends to classify terrains using a feed-forward neural network model built in the Keras Application Programming Interface (API) using vibration readings. This study found that a feed-forward neural network can be constructed in the Keras API to accurately classify six different terrains namely bricks, dirt, epoxy, grass, stone and tarmac using vibration readings.",
+            "Keywords" : "Keywords: Autonomous vehicles, deep learning, feed-forward neural networks, Keras API, terrain classification, vibrations"
+        }
     }
 }
