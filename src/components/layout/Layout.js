@@ -84,6 +84,7 @@ function Layout() {
                     />
                     <AccordionCard
                         Title={Project.Title}
+                        Subtitle={Project.Subtitle}
                         Description={Project.Description}
                         Keywords={Project.Keywords}
                         ImgUrl={Project.ImgUrl}
