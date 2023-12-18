@@ -44,12 +44,12 @@ const Social = {
         {
             BtnName: data.Social.Github.Title,
             Href: data.Social.Github.URL,
-            BtnVariant: "info"
+            BtnVariant: "primary"
         },
         {
             BtnName: data.Social.LinkedIn.Title,
             Href: data.Social.LinkedIn.URL,
-            BtnVariant: "info"
+            BtnVariant: "primary"
         }
     ]
 }

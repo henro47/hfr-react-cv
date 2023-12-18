@@ -6,8 +6,16 @@
 .ico {
     height: 2rem;
     width: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
     color: rgb(8, 164, 207);
+}
+
+
+.btnico {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+    color: rgb( 249, 42, 0 );
 }
