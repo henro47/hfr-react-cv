@@ -2,18 +2,8 @@ ul, li{
     list-style: none;
     padding: 0;
   }
-  
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-  }
-  .wrapper{
-    background: #FFFF;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    width: auto;
+  .card {
+      width: auto;
   }
   .sessions{
     margin-top: 2rem;
@@ -47,12 +37,10 @@ ul, li{
   }
   .time{
     color: #2a2839;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
   p{
     color: #4f4f4f;
-        font-family: sans-serif;
     line-height: 1.5;
     margin-top:0.4rem;
   }
