@@ -1,3 +1,21 @@
 .card {
     width: auto;
 }
+
+.ico {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin: 0.5rem;
+    color: rgb(8, 164, 207);
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor:hover{
+    color:  rgb(8, 164, 207);
+}

@@ -17,6 +17,15 @@ const Contact = {
     Description: data.Contact.Position,
     ImgUrl: profileImg,
     ImagePos: data.Contact.ImagePos,
+    PositionURL: data.Contact.PositionURL,
+    Email: {
+        Title: data.Contact.Email.Title,
+        Href: data.Contact.Email.Href
+    },
+    Cell: {
+        Title: data.Contact.Cell.Title,
+        Href: data.Contact.Cell.Href
+    }
 }
 
 const About = {
@@ -63,8 +72,11 @@ function Layout() {
                     <ImageCard
                         Title={Contact.Title}
                         Description={Contact.Description}
+                        PositionURL={Contact.PositionURL}
                         ImgUrl={Contact.ImgUrl}
-                        ImgPos={Contact.ImgPos}/>
+                        ImgPos={Contact.ImgPos}
+                        Email={Contact.Email}
+                        Cell={Contact.Cell}/>
                 </Col>
                 <Col className={classes.columns} sm={4}>
                     <InfoCard
