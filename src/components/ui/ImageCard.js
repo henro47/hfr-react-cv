@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { BsChatRightTextFill } from "react-icons/bs";
 import classes from './ImageCard.module.css'
 
 function ImageCard(props) {
@@ -7,7 +8,7 @@ function ImageCard(props) {
     <Card className={classes.card} > 
         <Card.Img variant={props.ImgPos} src={props.ImgUrl} />
         <Card.Body>
-          <Card.Title>{props.Title}</Card.Title>
+          <Card.Title>{props.Title} <BsChatRightTextFill /></Card.Title>
           <Card.Text>
             {props.Description}
           </Card.Text>
