@@ -60,6 +60,7 @@ const Social = {
 const Project = {
     Title: data.Projects.Honnours.Title,
     Subtitle: data.Projects.Honnours.Subtitle,
+    Abstract: data.Projects.Honnours.Abstract,
     Description: data.Projects.Honnours.Description,
     Keywords: data.Projects.Honnours.Keywords,
     ImgUrl: projectImg,
@@ -99,6 +100,7 @@ function Layout() {
                     <AccordionCard
                         Title={Project.Title}
                         Subtitle={Project.Subtitle}
+                        Abstract={Project.Abstract}
                         Description={Project.Description}
                         Keywords={Project.Keywords}
                         ImgUrl={Project.ImgUrl}

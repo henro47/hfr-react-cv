@@ -1,3 +1,4 @@
+import { BsFillFloppy2Fill, BsFillCloudDownloadFill  } from "react-icons/bs";
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
@@ -7,10 +8,11 @@ function AccordionCard(props) {
     return (
         <Accordion>
           <Accordion.Item eventKey="0">
-            <Accordion.Header>{props.Title}</Accordion.Header>
+            <Accordion.Header>{props.Title} <BsFillFloppy2Fill className={classes.ico}/></Accordion.Header>
             <Accordion.Body>
                 <Image src={props.ImgUrl} fluid></Image>
                 <h5>{props.Subtitle}</h5>
+                <h6>{props.Abstract}</h6>
                 <div className={classes.description}>
                     {props.Description}
                 </div>
@@ -21,7 +23,7 @@ function AccordionCard(props) {
                 <br/>
                 <div className="d-grid gap-2">
                     <Button size="sm" href ={props.BtnUrl} target="blank">
-                        {props.BtnTitle}
+                        {props.BtnTitle} <BsFillCloudDownloadFill className={classes.btnico}/>
                     </Button>
                 </div>
             </Accordion.Body>
