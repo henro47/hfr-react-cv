@@ -1,8 +1,10 @@
 {
     "Contact": {
         "Name": "Hendrik Fick Renaldo Potgieter",
-        "Position": "Graduate Golang Software Developer at Nile.ag",
-        "PositionURL": "https://nile.ag/",
+        "Position": {
+            "Title": "Graduate Golang Software Developer at Nile.ag",
+            "URL": "https://nile.ag/"
+        },        
         "Location": "Gauteng, ZA",
         "ImagePos" : "Top",
         "Email" : {

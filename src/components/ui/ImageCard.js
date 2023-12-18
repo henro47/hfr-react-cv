@@ -3,13 +3,14 @@ import { BsMailbox2Flag, BsFillTelephoneFill, BsPersonBoundingBox } from "react-
 import classes from './ImageCard.module.css'
 
 function ImageCard(props) {
+  console.log(props)
   return (
     <Card className={classes.card} > 
         <Card.Img variant={props.ImgPos} src={props.ImgUrl}/>
         <Card.Body>
           <Card.Title>{props.Title}<BsPersonBoundingBox className={classes.ico}/></Card.Title>
           <Card.Text>
-            <a href={props.PositionURL} className={classes.anchor} target='blank'>{props.Description}</a>
+            <a href={props.Position.URL} className={classes.anchor} target='blank'>{props.Position.Title} <img src={props.Position.Icon}></img></a>
           </Card.Text>
           <a href={props.Cell.Href} className={classes.anchor} target='blank'><BsFillTelephoneFill className={classes.ico}/>{props.Cell.Title}</a>
           <br/>
@@ -20,3 +21,4 @@ function ImageCard(props) {
 }
 
 export default ImageCard;
+

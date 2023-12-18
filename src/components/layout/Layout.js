@@ -10,14 +10,17 @@ import AccordionCard from '../ui/AccordionCard';
 
 import profileImg from '../../media/profile.jpg';
 import projectImg from '../../media/nwu_logo.png';
+import positionIco from '../../media/golang.svg';
 import projectFile from '../../media/honnours_project.pdf';
 
 const Contact = {
     Title: data.Contact.Name,
-    Description: data.Contact.Position,
     ImgUrl: profileImg,
-    ImagePos: data.Contact.ImagePos,
-    PositionURL: data.Contact.PositionURL,
+    Position: {
+        Title: data.Contact.Position.Title,
+        URL: data.Contact.Position.URL,
+        Icon: positionIco,
+    },
     Email: {
         Title: data.Contact.Email.Title,
         Href: data.Contact.Email.Href
@@ -71,8 +74,7 @@ function Layout() {
                 <Col className={classes.columns} sm={3}>
                     <ImageCard
                         Title={Contact.Title}
-                        Description={Contact.Description}
-                        PositionURL={Contact.PositionURL}
+                        Position={Contact.Position}
                         ImgUrl={Contact.ImgUrl}
                         ImgPos={Contact.ImgPos}
                         Email={Contact.Email}
