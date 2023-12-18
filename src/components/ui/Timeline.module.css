@@ -44,3 +44,19 @@ ul, li{
     line-height: 1.5;
     margin-top:0.4rem;
   }
+
+  .ico {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: rgb(8, 164, 207);
+  }
+
+  .btnico {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+    color: rgb( 249, 42, 0 );
+  }
