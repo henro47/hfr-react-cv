@@ -28,10 +28,18 @@ const Career = {
 
 const Social = {
     Title: data.Social.Title,
-    Github: {
-        Title: data.Social.Github.Title,
-        URL: data.Social.Github.URL
-    }
+    Buttons : [
+        {
+            BtnName: data.Social.Github.Title,
+            Href: data.Social.Github.URL,
+            BtnVariant: "info"
+        },
+        {
+            BtnName: data.Social.LinkedIn.Title,
+            Href: data.Social.LinkedIn.URL,
+            BtnVariant: "info"
+        }
+    ]
 }
 
 function Layout() {
@@ -49,14 +57,17 @@ function Layout() {
                     <InfoCard
                         Title={About.Title}
                         Description={About.Description}
+                        Buttons={[]}
                     />
                     <InfoCard
                         Title={Career.Title}
                         Description={Career.Description}
+                        Buttons={[]}
                     />
                     <InfoCard
                         Title={Social.Title}
-                        Description={Social.Github.Title}
+                        Description=""
+                        Buttons={Social.Buttons}
                     />
                 </Col>
                 <Col className={classes.columns}>
