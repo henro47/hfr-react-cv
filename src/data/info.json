@@ -18,11 +18,11 @@
     },
     "About": {
         "Title" : "About me",
-        "Description" : "I am an independent, hardworking and creative individual who is also reliable and has developed a responsible and ethical approach to the tasks that I undertake or any given situation I am placed in. I am excellent at working and communicating in a team. I believe in integrity and strong moral values and that an individual should strive to be successful not only in their career but also in their personal life. I also believe that everything you put your energy into, you can be successful in it if you do it with a positive mindset and with hard work."
+        "Description" : "I am a self-sufficient, diligent, and imaginative person who also possesses dependability and has learned to approach tasks and situations with responsibility and ethics. I have great teamwork and communication skills. I firmly believe in moral principles and integrity, and that a person should aim for success in both their personal and professional lives. I also think that if you work hard and have a positive outlook on everything you do, you can succeed in whatever you put your energy into."
     },
     "Career": {
         "Title" : "Career",
-        "Description" : "I am looking for an opportunity to grow and learn in my field of study. I understand that there is still much to learn, and I am willing and eager to learn new skills. I like to solve complex problems and I try to solve them in a creative, efficient way. When a problem grips me, I push myself to find a solution and I will not be satisfied until it is resolved. I am a hardworking, focused and disciplined individual with a big amount of willpower. I have the correct amount of knowledge, communication and teamwork skills to be appointed to this position."
+        "Description" : "In my field of study, I'm seeking for opportunities to develop and learn. I'm willing and excited to pick up new skills because I know I still have a lot to learn. I enjoy finding creative, effective solutions to challenging issues. I challenge myself to solve problems when they arise, and I won't be content until they are resolved. I am a very determined person who works very hard and is disciplined. To be appointed to this role, I possess the necessary knowledge, communication, and teamwork abilities."
     },
     "Social" :{
         "Title" : "Social",
@@ -41,32 +41,32 @@
             {
                 "Date" : "2017",
                 "Title" : "Matriculated",
-                "Description" : "Matriculated from Sentraal Highschool, 37 General Conroy St, Dan Pienaar, Bloemfontein, 9301, ZA"
+                "Description" : "Matriculated from Sentraal Highschool, 37 General Conroy St, Dan Pienaar, Bloemfontein, 9301, ZA."
             },
             {
                 "Date" : "2018-2020",
                 "Title" : "Bachelor of Science in Information Technology",
-                "Description" : "Graduated from the North-West University (NWU), with distinction"
+                "Description" : "Graduated from the North-West University (NWU), with distinction."
             },
             {
                 "Date": "2021",
                 "Title" : "Bachelor of Science Honours in Computer Science and Information Technology",
-                "Description" : "Graduated from the North-West University (NWU), with distinction"
+                "Description" : "Graduated from the North-West University (NWU), with distinction."
             },
             {
                 "Date":"2022-2023",
                 "Title": "Solution Developer at Linxas",
-                "Description" : "Started a full-time position as a solution developer at Linxas where I have gained experience with a variety of different programming languages and frameworks. These programming languages and frameworks include Java, JavaScript, TypeScript, Ionic Angular, Angular, GuiXT, and C#. A highlight of my position to date is a Fullstack Web Application written in Ionic Angular which one of our clients use to pull global reports for their business. This solution consists of an Ionic Angular front-end web application and an accompanying Node.js Express REST API that pulls information from a MySQL database that is hosted on a cloud server"
+                "Description" : "I began working as a solution developer full-time at Linxas, where I was able to acquire experience with a wide range of programming languages and frameworks. These programming languages and frameworks consist of C#, Ionic Angular, Java, JavaScript, TypeScript, and GuiXT. One of our clients uses a Fullstack Web Application built in Ionic Angular to pull global reports for their company, which is a high point of my position thus far. This solution is comprised of a front-end web application written in Ionic using Angular and a Node.js Express REST API to pull data from a MySQL database hosted on a cloud server."
             },
             {
                 "Date": "2022-2023",
                 "Title": "Subcontracted Software Developer at Pick n Pay",
-                "Description": "Started a position at Pick n Pay as a JavaScript developer as well as a Neptune-Software developer. I play a critical role in developing AJAX calls that pull information directly from SAP functions. I also develop native JavaScript functions that interface with various SAP functions and native libraries."
+                "Description": "Began working as a JavaScript developer and Neptune-Software developer at Pick n Pay. Developing AJAX calls that extract data directly from SAP systems is a crucial responsibility of mine. Additionally, I create native JavaScript functions that connect with other native libraries and SAP functions."
             },
             {
                 "Date":"2023-Present",
                 "Title": "Graduate software developer at Nile.ag",
-                "Description": "Started a full time position as a backend Golang developer. In this role I play an important role setting up and maintaining microservices that communicate via GRPC. writing graphQL schema queries and mutations and retriving information from our hosted database in GCP"
+                "Description": "Began working as a full-time graduate Golang backend software developer. I set up and maintain microservices that interact using GRPC as part of my crucial position. generating mutations and queries in graphQL schema and retrieving data from our hosted database in GCP. This also includes setting up and maintaining docker configurations."
             }
         ]
     },
